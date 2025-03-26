@@ -1,3 +1,3 @@
 # **_Funciones_**
 
-## Declaración y definición de funciones
+## _Declaración y definición de funciones_
