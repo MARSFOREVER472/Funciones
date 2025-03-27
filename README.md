@@ -46,4 +46,4 @@ double calcularPromedio(double a, double b) {
   
 - Definición de función: Después del main(), hemos definido las funciones sumar() y calcularPromedio(), proporcionando el cuerpo de la función y la implementación real.
   
-Llamadas a funciones: Dentro de main(), hemos llamado a las funciones declaradas y definidas previamente, pasando los argumentos requeridos.
+- Llamadas a funciones: Dentro de main(), hemos llamado a las funciones declaradas y definidas previamente, pasando los argumentos requeridos.
