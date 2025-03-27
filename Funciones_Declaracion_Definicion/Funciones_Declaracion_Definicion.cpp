@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
@@ -12,6 +13,10 @@ int suma(int a, int b);
 // DECLARACIÓN DE UNA FUNCIÓN CON VALORES PREDETERMINADOS...
 
 double calcularPromedio(double a, double b = 0.0);
+
+// DECLARACIÓN DE UNA FUNCIÓN EXTRA A MODO DE EJEMPLO...
+
+int variable;
 
 int main()
 {
@@ -34,6 +39,14 @@ int main()
 
     cout << "EL PROMEDIO FINAL DE ESTAS 2 CALIFICACIONES ES: " << promedio << endl;
 
+    // FUNCIÓN 3: CAPTURAR Y DEVOLVER EL MISMO DATO...
+
+    cout << "INTRODUZCA UN NUMERO: " << endl; // PUEDE CAMBIAR EL TEXTO...
+
+    cin >> variable;
+
+    cout << "EL NUMERO INGRESADO FUE: " << variable << endl;
+
     return 0;
 }
 
@@ -50,6 +63,20 @@ double calcularPromedio(double a, double b)
 {
     return (a + b) / 2;
 }
+
+/* 
+
+Cout es la función que utilizamos en C++ para imprimir por consola cualquier tipo de texto o datos contenidos dentro de una variable, 
+Cin se utiliza para capturar los datos que el usuario escriba en nuestro programa y así almacenarlo en alguna variable, 
+su implementación básica es simple pero existen algunas técnicas en su uso a nivel intermedio que puede tomar un poco más de tiempo entender, 
+pero que son indispensables para desarrollar códigos con mayor eficiencia.
+
+No hay mejor forma de aprender el uso de estas funciones que con ayuda de ejemplos, 
+a continuación enlisto una serie de ejemplos de programas de nivel básico e intermedio combinando los usos de estas dos funciones.
+
+*/
+
+
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
 // Depurar programa: F5 o menú Depurar > Iniciar depuración
