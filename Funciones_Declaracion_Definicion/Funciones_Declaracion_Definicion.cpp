@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <cstdlib>
+#include <string>
 
 using namespace std;
 
@@ -14,9 +15,15 @@ int suma(int a, int b);
 
 double calcularPromedio(double a, double b = 0.0);
 
-// DECLARACIÓN DE UNA FUNCIÓN EXTRA A MODO DE EJEMPLO...
+// DECLARACIÓN DE UNAS FUNCIONES EXTRAS A MODO DE EJEMPLO...
 
-int variable;
+int variable; // VARIABLE 1...
+
+string texto; // VARIABLE 2...
+
+char texto1[100]; // VARIABLE 3...
+
+// FUNCIÓN PRINCIPAL A EJECUTAR...
 
 int main()
 {
@@ -39,13 +46,31 @@ int main()
 
     cout << "EL PROMEDIO FINAL DE ESTAS 2 CALIFICACIONES ES: " << promedio << endl;
 
-    // FUNCIÓN 3: CAPTURAR Y DEVOLVER EL MISMO DATO...
+    // FUNCIÓN 3.1: CAPTURAR Y DEVOLVER LOS MISMOS DATOS...
 
-    cout << "INTRODUZCA UN NUMERO: " << endl; // PUEDE CAMBIAR EL TEXTO...
+    /* cout << "INTRODUZCA UN NUMERO: " << endl; // PUEDE CAMBIAR EL TEXTO...
 
     cin >> variable;
 
-    cout << "EL NUMERO INGRESADO FUE: " << variable << endl;
+    cout << "EL NUMERO INGRESADO FUE: " << variable << endl; */
+
+    // FUNCIÓN 3.2: CAPTURAR TEXTO EN UNA VARIABLE "string"...
+
+    /* cout << "INTRODUZCA CUALQUIER TEXTO: " << endl;
+
+    getline(cin, texto);
+
+    cout << "RESULTADO FINAL: " << texto << endl; */
+
+    // FUNCIÓN 3.3: GUARDANDO TEXTO EN UN "char" CON UN "cin"...
+
+    cout << "INTRODUZCA CUALQUIER TEXTO: " << endl;
+
+    cin.getline(texto1, 100);
+
+    cout << "RESULTADO FINAL: " << texto1 << endl;
+
+    system("pause");
 
     return 0;
 }
