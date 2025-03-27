@@ -6,7 +6,7 @@
   
 - **_Las declaraciones adelantan al compilador sobre la existencia y firma de las funciones, lo que permite llamarlas antes de su definición real en el código._**
 
-**_Ejemplo:_**
+### **_Ejemplo:_**
 
 ```
 #include <iostream>
