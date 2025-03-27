@@ -42,7 +42,7 @@ double calcularPromedio(double a, double b) {
 }
 ```
 
-- **_Declaración de función: Antes del main(), hemos declarado dos funciones, sumar() y calcularPromedio(), indicando su firma (nombre, parámetros y tipos de retorno). La declaración permite al compilador conocer la existencia de estas funciones antes de su uso._**
+- **_Declaración de función: Antes del ```main()```, hemos declarado dos funciones, sumar() y calcularPromedio(), indicando su firma (nombre, parámetros y tipos de retorno). La declaración permite al compilador conocer la existencia de estas funciones antes de su uso._**
   
 - **_Definición de función: Después del main(), hemos definido las funciones sumar() y calcularPromedio(), proporcionando el cuerpo de la función y la implementación real._**
   
