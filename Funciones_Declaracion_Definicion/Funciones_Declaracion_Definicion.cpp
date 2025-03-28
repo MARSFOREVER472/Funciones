@@ -15,13 +15,19 @@ int suma(int a, int b);
 
 double calcularPromedio(double a, double b = 0.0);
 
-// DECLARACIÓN DE UNAS FUNCIONES EXTRAS A MODO DE EJEMPLO...
+// DECLARACIÓN DE AQUELLAS FUNCIONES EXTRAS A MODO DE EJEMPLO...
 
 int variable; // VARIABLE 1...
 
 string texto; // VARIABLE 2...
 
 char texto1[100]; // VARIABLE 3...
+
+float first; // PRIMER VALOR CORRESPONDIENTE A LA VARIABLE 1...
+
+float second; // SEGUNDO VALOR CORRESPONDIENTE A LA VARIABLE 2...
+
+float resultado; // RESULTADO FINAL COMO VARIABLE A MODO DE RESPUESTA...
 
 // FUNCIÓN PRINCIPAL A EJECUTAR...
 
@@ -64,13 +70,25 @@ int main()
 
     // FUNCIÓN 3.3: GUARDANDO TEXTO EN UN "char" CON UN "cin"...
 
-    cout << "INTRODUZCA CUALQUIER TEXTO: " << endl;
+    /* cout << "INTRODUZCA CUALQUIER TEXTO: " << endl;
 
     cin.getline(texto1, 100);
 
-    cout << "RESULTADO FINAL: " << texto1 << endl;
+    cout << "RESULTADO FINAL: " << texto1 << endl; */
 
-    system("pause");
+    // FUNCIÓN 4: Programa que solicita 2 números y los suma...
+
+    cout << "***** A CONTINUACION SUMAREMOS 2 NUMEROS! *****\nINGRESA UN NUMERO: " << endl;
+
+    cin >> first;
+
+    cout << "INGRESE OTRO NUMERO: " << endl;
+
+    cin >> second;
+
+    resultado = first + second;
+
+    cout << "EL RESULTADO FINAL ES: " << resultado << endl;
 
     return 0;
 }
